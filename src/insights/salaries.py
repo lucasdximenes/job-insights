@@ -110,7 +110,7 @@ def filter_by_salary_range(
         Jobs whose salary range contains `salary`
     """
     filtered_jobs_by_salary = []
-    
+
     for job in jobs:
         try:
             if matches_salary_range(job, salary):
